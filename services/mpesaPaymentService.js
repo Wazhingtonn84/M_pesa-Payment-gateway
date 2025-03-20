@@ -1,4 +1,5 @@
 const Axios = require("axios");
+require("dotenv").config();
 
 const createTokenService = async (req, res) => {
 	try {
